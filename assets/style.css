@@ -169,7 +169,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('story/story\ 001.jpg');
+    background-image: url('https://raw.githubusercontent.com/moinhaider520/test-7/main/public/assets/1.jpg');
   }
 .story2
 {
@@ -452,7 +452,7 @@ h4
     {
         width: 100px;
     }
-    .form
+    #form
     {
       width: 300px;
     }
