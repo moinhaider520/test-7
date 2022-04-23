@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Macondo+Swash+Caps&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    background-color: #000;
+  }
+  nav{
+    background-image: linear-gradient(to right, #ce9690 , #3d86ab);
+    height: 80px;
+    width: 100%;
+    position: relative;
+    font-family: 'Baumans', cursive;
+  }
+  nav ul{
+    float: center;
+    text-align: center;
+    margin-right: 20px;
+    background-color: linear-gradient(to right, #ce9690 , #3d86ab);
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+ #nav-a
+ {
+  text-decoration: none;
+ }
+ #nav-a:hover 
+ {
+   color: #555;
+ }
+ #nav-page
+ {
+   background-color: black;
+  background-image: none;
+ }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+/* Navbar */
+
+/* Header */
+#header
+{
+    width: 100%;
+    height: 120vh;
+    background: url(clouds.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content
+{   height: 100vh;
+    padding-top: 100px;
+    
+}
+.header-content img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content h1
+{
+  font-family: 'Macondo Swash Caps', cursive;
+  margin-top: 20px;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #808080,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.header-content p 
+{
+    color: #808080;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0px 50px;
+    margin: 0 auto;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #808080,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+#background-video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.wallet 
+{
+  width: 800px;
+  padding: 100px;
+  margin: auto;
+  margin-top: 150px;
+}
+/* STORY */
+.story-container {
+  position: relative;
+  width: 100%;
+  height: 2700vh;
+}
+  .story-image-container {
+    width: 100%;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('story/story\ 001.jpg');
+  }
+.story2
+{
+  margin-top: -10px;
+  width: 100%;
+  height: 100%;
+}
+.story2 img 
+{
+  width: 100%;
+}
+  
+.roadmap{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+.roadmap img 
+{
+  height: 100%;
+}
+
+.VideoTag
+{
+  width: 100%;
+}
+/* RACES */
+.race-container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+.race 
+{
+    background-color: #000;
+    text-align: center;
+    padding: 180px 0px;
+}
+.race h1 
+{
+    color: #00ffbe;
+    font-family: 'Macondo Swash Caps', cursive;
+    letter-spacing: 5px;
+    font-size: 92px;
+}
+.race a
+{
+    color: #00ffbe;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    margin-top: 70px;
+    text-decoration: none;
+}
+.race a:hover 
+{
+    color: #fff;
+    transform: translate();
+    transition: .5s;
+}
+#race-action 
+{
+    font-size: 82px;
+    padding: 20px;
+    border-radius: 60% 35% 40% 20%;
+    border: 3px solid #00ffbe ;
+}
+#race-action:hover 
+{
+    font-size: 82px;
+    padding: 20px;
+    border-radius: 60% 35% 40% 20%;
+    border: 3px solid #fff ;
+    background-color: #00ffbe;
+    color: #fff;
+    transition: 1s;
+}
+/* Utilities */
+.utilities-container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+.utilities-container h1 
+{
+    color: #00ffbe;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Anton, sans-serif;
+    letter-spacing: 5px;
+    font-size: 82px;
+}
+.utilities-icon-container
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+.icon:hover 
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #00ffbe;
+    transition: .5s all ease-in-out;
+}
+.icon 
+{
+    width: 150px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    float: left;
+    position: relative;
+    border: 1px solid #00ffbe;
+    font-family: sans-serif;
+    
+}
+.icon i 
+{
+    font-size: 42px;
+    padding: 30px 0px;
+}
+.icon p 
+{
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h4 
+{
+    color: #00ffbe;
+    margin: 20px 0px 20px 20px;
+}
+.content-p 
+{
+    padding: 0px 20px;
+    font-family: sans-serif;
+}
+.utilities-content
+{
+    border-top: 2px dashed #00ffbe;
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    margin-top: 100px;
+    display: none;
+}
+.utilities-content2
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.utilities-content3
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.utilities-content4
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.utilities-content5
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.utilities-content6
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+/* Media Queries */
+@media (max-width: 952px){
+    
+    nav ul li a{
+      font-size: 22px;
+      
+    }
+    .header-content p 
+    {
+        font-size: 22px;
+    }
+    .icon 
+    {
+        width: 100px;
+        
+    }
+    .icon p 
+    {
+        font-size: 12px;
+    }
+    .race h1
+    {
+      font-size: 72px;
+    }
+    .race 
+    {
+      padding-top: 100px;
+    }
+    #race-action
+    {
+      font-size: 72px;
+    }
+    
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 1;
+      background-image: linear-gradient(to right, #ce9690 , #3d86ab);
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .header-content img 
+    {
+      width: 60%;
+    }
+    .race h1
+    {
+      font-size: 52px;
+    }
+    #race-action
+    {
+      font-size: 52px;
+    }
+    .header-content p 
+    {
+        font-size: 18px;
+    }
+    .icon 
+    {
+        width: 100px;
+    }
+  }
+  @media (max-width: 650px){
+    
+
+    .header-content p 
+    {
+        font-size: 12px;
+    }
+    
+  }
