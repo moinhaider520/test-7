@@ -148,10 +148,9 @@
 .wallet 
 {
   width: 100%;
-  padding: 100px;
-  background-color: red;
   margin: auto;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 /* STORY */
 .story-container {
@@ -251,7 +250,7 @@
 .utilities-container
 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #000;
 }
 .utilities-container h1 
@@ -259,7 +258,7 @@
     color: #00ffbe;
     text-align: center;
     padding-top: 100px;
-    font-family: Anton, sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     letter-spacing: 5px;
     font-size: 82px;
 }
@@ -316,7 +315,7 @@ h4
 {
     border-top: 2px dashed #00ffbe;
     height: 300px;
-    width: 1000px;
+    width: 50%;
     margin: auto;
     color: #fff;
     margin-top: 100px;
@@ -326,7 +325,7 @@ h4
 {
     border-top: 2px dashed #00ffbe;
     height: 350px;
-    width: 1000px;
+    width: 50%;
     margin: auto;
     color: #fff;
     display: none;
@@ -336,7 +335,7 @@ h4
 {
     border-top: 2px dashed #00ffbe;
     height: 350px;
-    width: 1000px;
+    width: 50%;
     margin: auto;
     color: #fff;
     display: none;
@@ -346,7 +345,7 @@ h4
 {
     border-top: 2px dashed #00ffbe;
     height: 350px;
-    width: 1000px;
+    width: 50%;
     margin: auto;
     color: #fff;
     display: none;
@@ -356,7 +355,17 @@ h4
 {
     border-top: 2px dashed #00ffbe;
     height: 350px;
-    width: 1000px;
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.utilities-content6
+{
+    border-top: 2px dashed #00ffbe;
+    height: 350px;
+    width: 100%;
     margin: auto;
     color: #fff;
     display: none;
