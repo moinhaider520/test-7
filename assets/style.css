@@ -151,7 +151,9 @@
   padding: 100px;
   margin: auto;
   margin-top: 150px;
+  background-color: red;
 }
+
 /* STORY */
 .story-container {
   position: relative;
